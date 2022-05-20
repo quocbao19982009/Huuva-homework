@@ -89,3 +89,11 @@ export enum OrderStatusEnum {
   OnHold,
   Ready,
 }
+
+export enum FilterOrderEnum {
+  All = "All",
+  Waiting = "Waiting",
+  Preparing = "Preparing",
+  OnHold = "OnHold",
+  Ready = "Ready",
+}
