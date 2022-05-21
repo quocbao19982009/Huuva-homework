@@ -118,7 +118,7 @@ const exampleRequest: Order[] = [
       companyName: "",
       email: "",
       name: "Juho Kaskashi",
-      phoneNumber: "",
+      phoneNumber: "0461246434",
     },
     decimalDigits: 2,
     deliveryAddress: {
@@ -225,7 +225,7 @@ const exampleRequest: Order[] = [
       companyName: "",
       email: "",
       name: "Helen",
-      phoneNumber: "",
+      phoneNumber: "0461246434",
     },
     decimalDigits: 2,
     deliveryAddress: {
@@ -312,7 +312,7 @@ const exampleRequest: Order[] = [
       companyName: "",
       email: "",
       name: "Cam Uchiha",
-      phoneNumber: "",
+      phoneNumber: "0461246434",
     },
     decimalDigits: 2,
     deliveryAddress: {

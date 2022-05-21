@@ -13,6 +13,7 @@ import { Customer, ItemsEntity, Order, OrderStatusEnum } from "../../types";
 
 type OrderDetailInfoProps = {
   customer: Customer["name"];
+  phoneNumber: Customer["phoneNumber"];
   dishes: { name: ItemsEntity["name"]; quantity: ItemsEntity["quantity"] }[];
   id: Order["_id"];
   status: OrderStatusEnum;
@@ -22,6 +23,7 @@ type OrderDetailInfoProps = {
 
 const OrderDetailInfo = ({
   customer,
+  phoneNumber,
   id,
   dishes,
   status,
@@ -53,6 +55,7 @@ const OrderDetailInfo = ({
       <Box>
         <Typography>Order's Info:</Typography>
         <Typography>{`Customer: ${customer}`}</Typography>
+        <Typography>{`Phone number: ${phoneNumber}`}</Typography>
         <Typography>{`Order's Id: ${id}`}</Typography>
         <FormControl
           component="fieldset"

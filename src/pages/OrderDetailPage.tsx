@@ -71,6 +71,7 @@ const OrderDetailPage = () => {
               <Box sx={{ minWidth: "50%" }}>
                 <OrderDetailInfo
                   customer={orderDetail.customer.name}
+                  phoneNumber={orderDetail.customer.phoneNumber}
                   id={orderDetail._id}
                   dishes={orderDetail.items}
                   status={orderStatus}
