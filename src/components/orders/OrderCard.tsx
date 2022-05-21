@@ -45,7 +45,7 @@ const OrderCard = ({
           {`Note: ${note}`}
         </Typography>
         <Typography sx={{ fontSize: 16 }} color="text.primary" gutterBottom>
-          {`Estimate Pickup: ${TimeFormat(pickupTime)}`}
+          {`Pickup Time: ${TimeFormat(pickupTime)}`}
         </Typography>
       </CardContent>
       <CardActions

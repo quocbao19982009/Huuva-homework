@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<OrdersPage />}></Route>
         <Route path="/order/:id" element={<OrderDetailPage />}></Route>
+        <Route path="/sort/:sortOrder" element={<OrdersPage />}></Route>
       </Routes>
     </Container>
   );

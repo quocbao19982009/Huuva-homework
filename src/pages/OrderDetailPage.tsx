@@ -51,7 +51,7 @@ const OrderDetailPage = () => {
         <Button
           variant="outlined"
           onClick={() => {
-            navigate("/");
+            navigate(-1);
           }}
         >
           Go Back

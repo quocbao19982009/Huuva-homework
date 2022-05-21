@@ -91,16 +91,16 @@ const OrderDetailAction = ({
     </Button>
   );
 
-  const backButton = (
+  const seeAllOrderButton = (
     <Button
       sx={{ my: "0.5rem" }}
       variant="contained"
       color="primary"
       onClick={() => {
-        navigate(-1);
+        navigate("/sort/All");
       }}
     >
-      See all Order
+      See All Orders
     </Button>
   );
 
@@ -121,7 +121,7 @@ const OrderDetailAction = ({
         {status === OrderStatusEnum.Preparing && pauseButton}
         {status === OrderStatusEnum.OnHold && resumeButton}
         {status === OrderStatusEnum.Preparing && readyToPickupButton}
-        {status === OrderStatusEnum.Ready && backButton}
+        {status === OrderStatusEnum.Ready && seeAllOrderButton}
       </Box>
     </>
   );

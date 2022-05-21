@@ -83,23 +83,7 @@ const Navbar = () => {
               sx={{
                 display: { xs: "block", md: "none" },
               }}
-            >
-              <MenuItem onClick={handleCloseNavMenu}>
-                <Link style={{ textDecoration: "none" }} to="/">
-                  <Button
-                    onClick={handleCloseNavMenu}
-                    sx={{
-                      my: 2,
-                      color: "#26282b",
-                      display: "block",
-                      fontWeight: 600,
-                    }}
-                  >
-                    All Order
-                  </Button>
-                </Link>
-              </MenuItem>
-            </Menu>
+            ></Menu>
           </Box>
           <Box
             sx={{
@@ -117,21 +101,6 @@ const Navbar = () => {
               alt="Huuva's Logo"
               src={logoImg}
             ></img>
-          </Box>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            <Link style={{ textDecoration: "none" }} to="/">
-              <Button
-                onClick={handleCloseNavMenu}
-                sx={{
-                  my: 2,
-                  color: "#26282b",
-                  display: "block",
-                  fontWeight: 600,
-                }}
-              >
-                All Orders
-              </Button>
-            </Link>
           </Box>
         </Toolbar>
       </Container>

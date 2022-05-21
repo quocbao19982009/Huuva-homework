@@ -96,4 +96,5 @@ export enum FilterOrderEnum {
   Preparing = "Preparing",
   OnHold = "OnHold",
   Ready = "Ready",
+  Active = "Active",
 }

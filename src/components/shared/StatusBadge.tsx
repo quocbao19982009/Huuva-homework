@@ -29,7 +29,7 @@ const StatusBadge = ({ status }: StatusBadgeProps) => {
         return (
           <Chip
             sx={{ maxWidth: "50%" }}
-            label="Being Prepare"
+            label="Being Prepared"
             icon={<HourglassBottomIcon />}
             color="secondary"
           />
@@ -39,7 +39,7 @@ const StatusBadge = ({ status }: StatusBadgeProps) => {
         return (
           <Chip
             sx={{ maxWidth: "50%" }}
-            label="Pause"
+            label="Paused"
             icon={<PauseCircleIcon />}
             color="warning"
           ></Chip>
