@@ -34,6 +34,14 @@ The Engineering team at Huuva develops software for our kitchen staff so they ca
 
 ## How to run
 
--- npm install
+- npm install
 
--- npm start
+- npm start
+
+## Estimate Work Time
+
+- Around 10-12 hours including designing, implimenting
+
+## Note
+
+- For the project to look decently and meet the deadline, I decided to use Material UI for components. I can write components with Style Component but I may not have enough time for it to look decent.
