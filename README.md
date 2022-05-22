@@ -16,13 +16,13 @@ The Engineering team at Huuva develops software for our kitchen staff so they ca
 
 ## Feature
 
--- Chef can sort orders by order's status: Waiting, Ready, Being Prepared, pause
+- Chef can sort orders by order's status: Waiting, Ready, Being Prepared, pause
 
--- Chef can update order status
+- Chef can update order status
 
--- An order can only be ready if all items are prepared
+- An order can only be ready if all items are prepared
 
--- Orders are stored in useContext, updating orders is also updating orders in context
+- Orders are stored in useContext, updating orders is also updating orders in context
 
 ## Techs
 
