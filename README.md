@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Description
+## Challange's Description
 
-The Engineering team at Huuva develops software for our kitchen staff so they can manage the incoming orders via software instead of paper tickets. In this assignment you’ll develop a small web application. In this application it should be possible to change the status of the order and show relevant information to the chef.
+You are challanged to develop a software for our kitchen staff so they can manage the incoming orders via software instead of paper tickets. In this challange, you’ll develop a small web application. In this application it should be possible to change the status of the order and show relevant information to the chef.
 
 ## Task
 
@@ -14,7 +14,7 @@ The Engineering team at Huuva develops software for our kitchen staff so they ca
 
 - Implement it
 
-## Feature
+## Solution's Feature
 
 - Chef can sort orders by order's status: Waiting, Ready, Being Prepared, pause
 
@@ -24,7 +24,7 @@ The Engineering team at Huuva develops software for our kitchen staff so they ca
 
 - Orders are stored in useContext, updating orders is also updating orders in context
 
-## Techs
+## Solution's Techs
 
 - React
 
@@ -42,6 +42,3 @@ The Engineering team at Huuva develops software for our kitchen staff so they ca
 
 - Around 10-12 hours including designing, implimenting
 
-## Note
-
-- For the project to look decently and meet the deadline, I decided to use Material UI for components. I can write components with Style Component but I may not have enough time for it to look decent.
