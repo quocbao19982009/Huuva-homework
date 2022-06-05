@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Challange's Description
+## challenge's Description
 
-You are challanged to develop a software for our kitchen staff so they can manage the incoming orders via software instead of paper tickets. In this challange, you’ll develop a small web application. In this application it should be possible to change the status of the order and show relevant information to the chef.
+You are challenged to develop a software for our kitchen staff so they can manage the incoming orders via software instead of paper tickets. In this challange, you’ll develop a small web application. In this application it should be possible to change the status of the order and show relevant information to the chef.
 
 ## Task
 
